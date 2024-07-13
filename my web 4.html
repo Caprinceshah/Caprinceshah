@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Prince Shah - Chartered Accountant, CMA, MBA</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        header {
+            background-color: #3a3d98;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #2e3192;
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ff6b6b;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 3rem auto;
+            padding: 2rem;
+            background-color: white;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .profile {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 4px solid #3a3d98;
+        }
+        .profile h1 {
+            margin: 1rem 0 0.5rem;
+            color: #3a3d98;
+        }
+        .profile p {
+            margin: 0.5rem 0;
+            font-size: 1.1rem;
+        }
+        .services, .contact {
+            margin: 2rem 0;
+        }
+        .services h2, .contact h2 {
+            color: #3a3d98;
+            border-bottom: 2px solid #ff6b6b;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services ul li {
+            background: #f1f2f6;
+            margin: 0.75rem 0;
+            padding: 1rem;
+            border-radius: 8px;
+            transition: background 0.3s;
+        }
+        .services ul li:hover {
+            background: #ff6b6b;
+            color: white;
+        }
+        .contact p {
+            margin: 0.5rem 0;
+        }
+        footer {
+            background-color: #3a3d98;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>CA Prince Shah</h1>
+        <p>Chartered Accountant, CMA, MBA</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about" class="profile">
+            <img src="profile.jpg" alt="CA Prince Shah">
+            <h1>About Me</h1>
+            <p>Hello! I am CA Prince Shah, a highly qualified Chartered Accountant, CMA, and MBA with extensive experience in financial consulting and investment. I am dedicated to helping clients achieve their financial goals with tailored strategies and expert advice.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Financial Consulting</li>
+                <li>Investment Planning</li>
+                <li>Tax Advisory</li>
+                <li>Business Strategy</li>
+                <li>Corporate Finance</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:caprinceshah01@gmail.com">caprinceshah01@gmail.com</a></p>
+            <p>Office Address: A-169, City Mall-1, Kalol, Gandhinagar, Gujarat, India</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 CA Prince Shah. All rights reserved.</p>
+    </footer>
+</body>
+</html>
